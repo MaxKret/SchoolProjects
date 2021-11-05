@@ -1,0 +1,8 @@
+# Tree Creation
+	tree = Tree()
+	tree.root = Node(25)
+	tree.root.lchild = Node(-5)
+	tree.root.rchild = Node(32)
+	tree.root.lchild.lchild = Node(9)
+	tree.root.lchild.lchild.rchild = Node(25)
+	node = tree.root
