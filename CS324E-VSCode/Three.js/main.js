@@ -1,5 +1,10 @@
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000 );
+let camera = new THREE.PerspectiveCamera(45,window.innerWidth/window.innerHeight, 0.1, 1000);
+let controls = new THREE.OrbitControls(camera);
+camera.position.set(0, 0, 20);
+controls.update();
+
 const renderer = new THREE.WebGLRenderer();
 
 renderer.setSize( window.innerWidth,window.innerHeight );
@@ -24,5 +29,6 @@ draw = function ()
 	renderer.render( scene, camera );
 	pivot.rotation.x += 0.01;
 	pivot.rotation.y += 0.01;
+	controls.update();
 };
 draw();
