@@ -115,7 +115,14 @@ class Tree (object):
         elif aNode.data.isdigit() or '.' in aNode.data:
             return float(eval(aNode.data))
 
-    
+    # takes root node
+    def in_order (self, aNode):
+        if (aNode != None):
+            self.in_order (aNode.lChild)
+            print (aNode.data, end=" ")
+            self.in_order (aNode.rChild)
+
+
     # this function should generate the preorder notation of 
     # the tree's expression
     # returns a string of the expression written in preorder notation
