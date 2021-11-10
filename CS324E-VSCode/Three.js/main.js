@@ -15,17 +15,17 @@ controls.update();
 
 //floor
 
-const floor_geometry = new THREE.PlaneGeometry( 100, 100, 1, 1 );
-const floor_material = new THREE.MeshBasicMaterial( {color: 0xffff00, side: THREE.DoubleSide} );
+const floor_geometry = new THREE.PlaneGeometry( 1000, 1000, 1, 1 );
+const floor_material = new THREE.MeshBasicMaterial( {color: 0x202020, side: THREE.DoubleSide} );
 const floor_mesh = new THREE.Mesh( floor_geometry, floor_material );
-floor_mesh.rotation.x = 90;
-floor_mesh.rotation.y = 0;
-floor_mesh.rotation.z = 0;
+floor_mesh.rotation.x = -Math.PI / 2;
+floor_mesh.position.y = -50;
+
 const floor = new THREE.Object3D();
 floor.add(floor_mesh);
 
 //cube 1: green
-const cube_geometry = new THREE.BoxGeometry(40, 40, 40);
+const cube_geometry = new THREE.BoxGeometry(20, 20, 20);
 const cube_material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
 const cube_mesh = new THREE.Mesh( cube_geometry, cube_material );
 const cube = new THREE.Object3D();
@@ -44,9 +44,6 @@ draw = function ()
 	controls.update();
 
 	renderer.render( scene, camera );
-
-	cube.rotation.x += 0.01;
-	cube.rotation.y += 0.01;
 	
 };
 draw();
