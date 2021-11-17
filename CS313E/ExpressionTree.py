@@ -14,7 +14,7 @@
 
 #  Date Last Modified: 8/2/21
 
-import sys
+import sys, json
 
 operators = ['+', '-', '*', '/', '//', '%', '**']
 
@@ -118,9 +118,17 @@ class Tree (object):
     # takes root node
     def in_order (self, aNode):
         if (aNode != None):
-            self.in_order (aNode.lChild)
-            print (aNode.data, end=" ")
-            self.in_order (aNode.rChild)
+            result = ""
+
+            # traverse children left to right
+            result += self.in_order(aNode.lChild)
+            # if node has data, add data to result
+            if aNode.data != None:
+                result += str(aNode.data) + ' '
+            result += self.in_order(aNode.rChild)
+
+            return result 
+        return ""
 
 
     # this function should generate the preorder notation of 
