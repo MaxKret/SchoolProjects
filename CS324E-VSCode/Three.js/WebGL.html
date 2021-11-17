@@ -26,6 +26,18 @@
 			let renderer = new THREE.WebGLRenderer();
 			renderer.setSize(window.innerWidth,window.innerHeight);
 			document.body.appendChild(renderer.domElement);
+
+			draw = function () 
+			{
+				requestAnimationFrame( draw );
+
+				controls.update();
+
+				renderer.render( scene, camera );
+				
+			};
+			initGL();
+			draw();
 			</script>
 	</canvas>
 
