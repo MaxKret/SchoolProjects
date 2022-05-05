@@ -1,0 +1,4 @@
+- [x] everything else
+- [] filtering
+- [] search bar
+- [] mySQL
