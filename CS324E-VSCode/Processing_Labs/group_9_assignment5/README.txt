@@ -1,0 +1,1 @@
+open the group_9_assignment5.pde file, and click 'Run' to display the animation.

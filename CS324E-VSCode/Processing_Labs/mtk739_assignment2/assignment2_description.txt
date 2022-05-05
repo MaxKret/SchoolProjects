@@ -1,0 +1,25 @@
+Max K  9/14/21
+
+In this assignment, we used per-pixel manipulation in order to create a series of 
+commonly-used filters. We also implemented basic input-handling and image buffering. 
+Filters are applied to this image when the user clicks the number keys. 
+Each filter was applied individually.
+/*
+  //default
+  if(key_pressed == '0')
+
+  //grayscale
+  if(key_pressed == '1')
+  
+  //contrast
+  if(key_pressed == '2')
+ 
+  //Gaussian blur
+  if(key_pressed == '3')
+  
+  //edge detection
+  if(key_pressed == '4')
+
+  //sharpen 
+  if(key_pressed == '5' )
+*/

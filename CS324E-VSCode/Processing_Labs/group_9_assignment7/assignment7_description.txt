@@ -1,0 +1,8 @@
+The story of this game follows an alien stranded on a planet, trying to use an umbrella to ride the planet's updrafts back to its ship in orbit. The player will use the WASD keys to ascend. The player will need to dodge clouds, and if the player makes contact with these, they will die. The game is an infinite runner, so the players score will increase over time. The work was be divided as follows:
+
+Max handled the Player class. This class includes functionality so that the player is able to move across the screen when WASD keys are pressed, the sprite has a bounding box used for collisions, and sprite animation is handled and changed correctly when the player is moving left or right.
+
+Patrick handled the Cloud and CloudGroup class. The clouds will spawn above the screen and descend downwards, giving the illusion that it is the player ascending. Once the cloud descends past the bottom of the screen, it will respawn at its original Y position, and descend once again. Upon respawn, the X position is randomized so that the clouds do not always fall from the same position. The CloudGroup class handles multiple cloud objects, and assigns a different speed to each one.
+
+Isaiah created the user interface, which includes the general display and the score class. This includes a method to increase the score in relation to time. The score is displayed during the game. Once the player collides with a cloud, the screen will shift to a game over one, where the user's score will be displayed. The player can press 'x' to play again
+

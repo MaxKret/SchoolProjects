@@ -1,0 +1,1 @@
+To run this game, open group_9_assignment7.pde and run this file in processing. Use the x key to start a game. Use the WASD keys to move up, left, down, and right respectively. The objective is to avoid clouds. If you get a game over, press x to play again.

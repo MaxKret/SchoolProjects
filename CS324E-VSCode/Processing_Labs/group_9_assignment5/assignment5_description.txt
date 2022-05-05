@@ -1,0 +1,9 @@
+Our story shows the creation of everyone's favorite and cherished home from Blue's Clues. Our animation begins with an exploded view of the house, that slowly re-assembles itself.
+
+For this project, Patrick handled the roof. This is accomplished through the Pyramid class. A pyramid is created with parameters being size, starting position, and ending position. The pyramid then descends from the starting position to the ending position when the drawPyramid method is called, and rotates as it descends.
+
+Isaiah oversaw the main structure of the house. This was the main cube that makes up the house, which rotates and translates across the screen into place.
+
+Max oversaw the doors and windows. These were made up of fairly thin rectangular prisms and a sphere for the door handle. The window spins will translating into place, and the door rotates from an opened position to a closed position while translating into place.
+
+Overall, the largest challenge was synchronization of animations so that each fit together seamlessly in a loop.

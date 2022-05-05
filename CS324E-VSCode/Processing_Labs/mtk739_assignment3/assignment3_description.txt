@@ -1,0 +1,16 @@
+This project explored words in novels and how to visualize a corpus using several different techniques. 
+In order to do this, we chose Frankenstein by Mary Shelley from Project Gutenberg. Using this novel as a basis, Maxwell wrote a script to extract all words, 
+unique words, and word frequency into text files. We then used these files to construct a word cloud via Word Clouds, a student-made word cloud of a random selection of unique words done by Isaiah, 
+and a visual representation of word frequency done by Patrick. 
+
+Patrick worked on the a3_wordfrequency file. This file uses the word frequency to display a bar graph, with the amount of words with a frequency of one at the top, proceeding downwards, 
+with the number of words of higher frequency further down. The program will have the maximum number of words in a given frequency have a bar that extends to the rightmost part of the window, 
+and all other data will be relative to this. Ten extra pixels are given on the left for the purpose of visibility. As possible extra credit, an array of colors is referenced to give a rainbow effect.
+
+For novel visualization worked on by Isaiah Hogue, a black background with bold colors was chosen to fit the dark theme of Frankenstein as this was the corpus we used. 
+We implemented a search feature that makes it so any string entered restricts the displayed words in the cloud until enter/return is hit to clear the entry. 
+This was done as a bonus feature. In general unique words appearing in the corpus are displayed on screen in a random one of our three colors, 
+until a mouse click cycles out which of the currently eligible words are displayed.
+
+After each aspect was considered functional, we peer reviewed each others code including corrections, suggestions, and options for improved efficiency. This teamwork facillitated most of the more 
+involved/bonus features and allowed us to improve each others code while improving our own.

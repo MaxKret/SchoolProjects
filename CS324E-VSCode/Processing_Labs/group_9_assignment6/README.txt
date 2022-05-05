@@ -1,0 +1,2 @@
+open the group_9_assignment6.pde file, and click 'Run' to display the animation.
+Click to add Resources, Press B to spawn Prey, and Press any other key to spawn Predators, with all 3 spawning at Mouse pos.

@@ -1,0 +1,3 @@
+double check that lullaby.mp3 and treeBranchSVG.svg are in the 'data' folder and the official processing Sound library is installed, open the group_9_assignment4.pde file, and click 'Run' to display the animation.
+if Sound library is not installed, go 'Sketch'->'Import Library...'->'Add Library...' and search "Sound" in the 'filter' field. Select the library that says its from Processing Foundation and click Install.
+SCREEN WILL BE GREY FOR A FEW SECONDS BEFORE THE SOUND LOADS AND BEGINS.
