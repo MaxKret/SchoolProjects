@@ -1,0 +1,52 @@
+body {
+	background-color: #f8971f;
+}
+
+h1, h2, h3 {
+	color: #bf5700;
+}
+
+#titleText {
+	text-align: center;
+	font-size: 3em;
+	margin: 0em;
+}
+.centering-flex-container {
+	display: flex;
+	justify-content: center;
+}
+.centering-container {
+	/* border: 4px solid; */
+	padding: 0em;
+	display: flex;
+	justify-content: center;
+}
+
+
+.flex-container {
+	display: flex;
+}
+
+.flex-child {
+	flex: 1;
+}
+
+.flex-child:first-child {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.flex-child a {
+	color: white;
+}
+.logregText {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 0;
+}
+.logregContainer {
+	border: 3px solid #ccc;
+	padding: 1em;
+	padding-top: 0.25em;
+
+}

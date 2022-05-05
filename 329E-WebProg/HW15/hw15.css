@@ -1,0 +1,49 @@
+body {
+	background: #bf5700;
+	color: white;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+.main {
+	min-width: 42em;
+	max-width: 42em;
+}
+.container {
+	border: 2px solid;
+	padding: 1em;
+	padding-top: 0em;
+}
+.qcontainer {
+	margin: 0.5em;
+}
+#titleText {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	text-shadow: 3px 1px #974400;
+}
+h1 {
+	z-index: 0;
+	text-align: center;
+	font-size: 3em;
+	color: var(--txt-color);
+	margin: 0em;
+}
+h2 {
+	text-decoration: underline;
+	margin-bottom: 0px;
+}
+p label {
+	display: inline-block;
+	width: 9em;
+	font-weight: bold;
+}
+textarea, input, button, output, select {
+	background: #c06a24;
+}
+
+.qcontainer, .Qlabel {
+	display: none;
+}

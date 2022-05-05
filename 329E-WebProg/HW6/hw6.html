@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ASCII Characters</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Find ASCII characters from their index">
+	<meta name="author" content="Maxwell Kretschmer">
+	<link rel="stylesheet" href="hw6.css">
+</head> 
+
+<body>
+
+	<h1 id="titleText"> Mortgage Calculator </h1>
+	<form method = "POST" action = "http://www.cknuckles.com/cgi/echo.cgi">
+		
+		<p>
+			<label for="P">Principal amount ($)</label> <input name ="P" id="P" type = "number" />
+		</p>
+	
+		<p>
+			<label for="Yr">Yearly interest rate</label> <input name ="Yr" id="Yr" type = "number" /> (between 0 and 1; e.g, "0.08" for 8 percent)
+		</p>
+	
+		<p>
+			<label for="n">Loan term (months)</label> <input name ="n" id="n" type = "number" /> 
+		</p>
+
+		<p>
+			<button name="Calculate" type="button" onclick="calculate()">Calculate</button>
+			<input type = "reset" value = "Clear" />
+		</p>
+
+		<h2>Output:</h2>
+
+		<p>
+			<label> Monthly payment: </label> $<output name="R" id="R" > </output>
+		</p>
+		<p>
+			<label> Sum of payments: </label> $<output name="Rt" id="Rt" > </output>
+		</p>
+		<p>
+			<label> Total interest paid: </label> $<output name="It" id="It" > </output>
+		</p>
+
+	</form>
+	<script src="hw6.js"></script>
+</body>
+</html>

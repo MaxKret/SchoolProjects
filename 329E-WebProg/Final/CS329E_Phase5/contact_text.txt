@@ -1,0 +1,90 @@
+please@poopmail.com
+Lord, Please Work. I pray to thee.
+----------
+jobert@fakemail.com
+Testing this again.
+----------
+jobert@fakemail.com
+Testing this again. Again.
+----------
+fsdaf@fdsa
+fsadfsa
+----------
+fsdafsd@fdsa.vcs
+fdsafsda
+----------
+darn@darnmail.com
+safasf
+----------
+fsdaf@fdsa
+fsda
+----------
+fsdaf@fdsa
+fsd
+----------
+alert@alertmail.com
+sasfdgfdh
+----------
+j@j.com
+submit?
+----------
+j@j.com
+Added JS and removed php "header".
+----------
+j@j.com
+Added JS and removed php "header".
+----------
+j@j.com
+Now with js change ... document.getElement... in same line as listener
+----------
+j@j.com
+script after form in doc now ...
+----------
+j@j.com
+changed js with more basic func
+----------
+j@j.com
+changed js to not have 'return' in onsubmit
+----------
+j@j.com
+moved inline script within form scope ... still basic onsubmit
+----------
+j@j.com
+moved inline script within form scope ... still basic onsubmit .. trying now with return in onsubmit (says it's bad)
+----------
+j@j.com
+SUPEr basic onsubmit
+----------
+j@j.com
+onclick on actual submit button
+----------
+j@j.com
+onlick on actual button with BASIC ALERT
+----------
+j@j.com
+got rid of script within form ... JUST onclick for button
+----------
+j@j.com
+got rid of script within form ... now trying onclick confirm
+----------
+j@j.com
+got rid of script within form ... now trying onsubmit with FULL function inside it
+----------
+j@j.com
+asfasf
+----------
+j@j.com
+echo
+----------
+j@j.com
+asghgdfhfd
+----------
+j@j.com
+sagagdsgds
+----------
+j@j.com
+TEST
+----------
+a@a.com
+asasdaodpasdad
+----------

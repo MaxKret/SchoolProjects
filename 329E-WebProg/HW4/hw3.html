@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   	<title>Feedback Form</title>
+   	<meta charset="UTF-8">
+   	<meta name="description" content="Campus Visit Feedback Form">
+   	<meta name="author" content="Maxwell Kretschmer">
+	<link href="styles3.css" rel="stylesheet">
+</head> 
+
+<body>
+	<h1 id="titleText">Campus Visit Feedback Form</h1>
+	<form method = "POST" action = "http://www.cknuckles.com/cgi/echo.cgi"> <!-- http://www.cknuckles.com/cgi/echo.cgi -->
+
+		<p>
+			<label> Student Name: <input name = "name" type = "text" size = "30" /> </label>
+		</p>
+
+		<p>
+			<label> Street Address: <input name = "address" type = "text" size = "30" /> </label>
+		</p>
+	
+		<p>
+			<label> Email Address: <input name = "email" type = "email" size = "30" /> </label>
+		</p>
+	
+		
+		<div>
+			<div id="subtitle1">Things you liked:</div>
+			<table>
+				<tr>
+					<td><label> <input name = "attraction[]" type = "checkbox" value = "students" /> Students </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "attraction[]" type = "checkbox" value = "location" /> Location </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "attraction[]" type = "checkbox" value = "courses" /> Courses Offered </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "attraction[]" type = "checkbox" value = "housing" /> Housing </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "attraction[]" type = "checkbox" value = "sports" />  Sports</label></td>
+				</tr>
+			</table>
+		</div>
+		
+		<br>
+
+		<div>
+			<div id="subtitle2">How did you find us?</div>
+			<table>
+				<tr>
+					<td><label> <input name = "connection" type = "radio" value = "family" /> Family </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "connection" type = "radio" value = "friends" /> Friends </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "connection" type = "radio" value = "television" /> Television </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "connection" type = "radio" value = "internet" /> Internet </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name = "connection" type = "radio" value = "other" /> Other </label></td>
+				</tr>
+			</table>
+		</div>
+		
+
+		<p>
+			<label> Department Visited
+				<select name = "depts">
+					<option selected = "selected"> College of Liberal Arts </option>
+					<option> McCombs School of Business </option>
+					<option> Cockrell School of Engineering </option>
+					<option> College of Natural Sciences </option>
+					<option> Moody College of Communication </option>
+					<option> Steve Hicks School of Social Work </option>
+				</select>
+			</label>
+		</p>
+
+		<p>
+			<label> Additional Comments: <br />
+				<textarea name = "comments" rows = "4" cols = "36"> Enter your comments here: </textarea>
+			</label>
+		</p>
+
+		<p>
+			<input type = "submit" value = "Enter" />
+			<input type = "reset" value = "Clear" />
+		</p>
+	
+	</form>
+
+</body>
+</html>

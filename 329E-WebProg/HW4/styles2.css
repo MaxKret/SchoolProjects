@@ -1,0 +1,44 @@
+#titleText{
+	font-weight:bold;
+	font-size:larger;
+	margin:0px;
+	color: rgb(0, 149, 255);
+}
+
+body {
+	background: #befbff;
+	color: black;
+}
+
+a:link {
+	color: orange;
+}
+a:visited {
+	color: rgb(141, 92, 0);
+}
+
+#subtitle1 {
+	font-weight: bold;
+	text-decoration: underline #000000;
+	color: rgb(0, 149, 255);
+}
+#subtitle2 {
+	font-weight: bold;
+	text-decoration: underline #000000;
+	color: rgb(0, 149, 255);
+}
+#subtitle3 {
+	font-weight: bold;
+	text-decoration: underline #000000;
+	color: rgb(0, 149, 255);
+}
+#subtitle4 {
+	font-weight: bold;
+	text-decoration: underline #000000;
+	color: rgb(0, 149, 255);
+}
+#subtitle5 {
+	font-weight: bold;
+	text-decoration: underline #000000;
+	color: rgb(0, 149, 255);
+}

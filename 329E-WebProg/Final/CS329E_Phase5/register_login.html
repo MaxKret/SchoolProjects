@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta name="description" content="Register or Login for Shop512">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register or Login</title>
+	<link href="register_login.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<script src="password_reqs.js"></script>
+	<script src="login.js"></script>
+	<script src="loginstate.js"></script>
+</head>
+
+
+<body>
+	<div class="contact-title">
+		<div class="bg-img">
+			<div class="container">
+				<ul id="topnav">
+					<li class="topleft"><a id="logolink" href="home.html"><img src="./img/logo.PNG"
+								alt="page logo" /></a></li>
+					<li class="topleft">
+                        <form action="./user_search.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </li>
+					<li class="topleft"><a href="explore.html">Explore</a></li>
+					<li class="topleft"><a href="our_mission.html">Our Mission</a></li>
+					<li class="topleft"><a href="contactus.html">Contact Us</a></li>
+					<li id="heart" class="topright"><a href="explore.html">&#10084;</a></li>
+					<div id="topright1">            
+                        <li class="topright"><a href="register_login.html">Login</a></li>
+                        <li class="topright" id="register"><a href="register_login.html">Register</a></li>
+                    </div>
+                    <div id="topright2">
+                        <li class="topright"><p></p></li>
+                    </div>
+				</ul>
+			</div>
+			<div class="center-text">
+				<!-- Moved center-text to inside of bg-img to fix clipping with nav bar -->
+				<div class="flex-container">
+
+					<div class="flex-child a">
+						<div class="logregContainer">
+							<form method="POST" action="">
+								<h3 class="logregText"> Login </h3>
+								<p>
+									<label for="loginUser" id="loginLabelu">Username:</label>
+									<input name="loginUser" id="loginUser" type="text" required />
+								</p>
+								<p>
+									<label for="loginPass" id="loginLabelp">Password:</label>
+									<input name="loginPass" id="loginPass" class="password" type="password" required />
+								</p>
+								<p>
+									<input name="Login" type="submit" onclick="login()" value="Login">
+									<input type="reset" value="Clear" />
+								</p>
+							</form>
+						</div>
+					</div>
+
+					<div class="flex-child b">
+						<div class="logregContainer">
+							<form method="POST" action="">
+								<h3 class="logregText"> Register </h3>
+								<p>
+									<label for="email" id="labele">Your Email:</label>
+									<input name="email" id="email" type="email" required />
+								</p>
+								<p>
+									<label for="user" id="labelu">Username:</label>
+									<input name="user" id="user" type="text" required />
+								</p>
+								<p>
+									<label for="pass1" id="labelp1">Password:</label>
+									<input name="pass1" id="pass1" class="password" type="password" required />
+								</p>
+								<p>
+									<label for="pass2" id="labelp2">Repeat <br> Password:</label>
+									<input name="pass2" id="pass2" class="password" type="password" required />
+								</p>
+								<p>
+									<input name="Register" type="submit" onclick="validate()" value="Register">
+									<input type="reset" value="Clear" />
+								</p>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<footer>
+		<hr />
+		<p><a href="mailto:julianwearden@utexas.edu">Julian Wearden</a> •
+			<a href="mailto:JoeySamfield@gmail.com">Max Samfield</a> •
+			<a href="mailto:maxwellkret@gmail.com">Maxwell Kretschmer</a> •
+			<a href="mailto:vlh546@utexas.edu">Vincent Hochstein</a>
+		</p>
+		<p>Group 29 | 03.07.2022</p>
+	</footer>
+
+</body>
+
+</html>

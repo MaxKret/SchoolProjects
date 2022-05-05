@@ -1,0 +1,25 @@
+#titleText{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	text-shadow: 3px 1px #974400;
+}
+
+body {
+	background: #bf5700;
+	color: white;
+}
+
+textarea, input, select, option {
+	background: #c06a24;
+}
+
+#subtitle1 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#subtitle2 {
+	font-weight: bold;
+	text-decoration: underline;
+}

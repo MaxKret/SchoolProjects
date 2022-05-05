@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Jigsaw Puzzle</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Jigsaw Puzzle">
+	<meta name="author" content="Maxwell Kretschmer">
+	<link rel="stylesheet" href="hw11.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<script src="hw11.js"></script>
+</head>
+
+<body>
+	<div id="timer">
+		Time: <span id="timeElapsed">0</span>
+	</div>
+	<h1 id="titleText"> Jigsaw Puzzle </h1>
+	<div id="textContainer">
+		<span id="resultText"></span>
+	</div>
+	<div class="flex-container">
+		<div class="flex-container">
+			<div class="main">
+				<div class="container">
+					<img src="puzzle1/puzzleback.gif" alt="" class="backImg" draggable="false">
+					<img src="puzzle1/img1-1.jpg" alt="" id="img1" draggable="false" class="dragImg" style="position: absolute; top: 450px; left: 200px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-2.jpg" alt="" id="img2" draggable="false" class="dragImg" style="position: absolute; top: 450px; left: 350px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-3.jpg" alt="" id="img3" draggable="false" class="dragImg" style="position: absolute; top: 450px; left: 500px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-4.jpg" alt="" id="img4" draggable="false" class="dragImg" style="position: absolute; top: 450px; left: 650px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-5.jpg" alt="" id="img5" draggable="false" class="dragImg" style="position: absolute; top: 600px; left: 200px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-6.jpg" alt="" id="img6" draggable="false" class="dragImg" style="position: absolute; top: 600px; left: 350px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-7.jpg" alt="" id="img7" draggable="false" class="dragImg" style="position: absolute; top: 600px; left: 500px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-8.jpg" alt="" id="img8" draggable="false" class="dragImg" style="position: absolute; top: 600px; left: 650px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-9.jpg" alt="" id="img9" draggable="false" class="dragImg" style="position: absolute; top: 750px; left: 200px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-10.jpg" alt="" id="img10" draggable="false" class="dragImg" style="position: absolute; top: 750px; left: 350px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-11.jpg" alt="" id="img11" draggable="false" class="dragImg" style="position: absolute; top: 750px; left: 500px;" onmousedown="grabber(event);">
+					<img src="puzzle1/img1-12.jpg" alt="" id="img12" draggable="false" class="dragImg" style="position: absolute; top: 750px; left: 650px;" onmousedown="grabber(event);">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="flex-container">
+		<div class="flex-container">
+			<div class="main">
+				<input type="button" value="Done" id="submit">
+				<input type="button" value="Reset" id="reset">
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

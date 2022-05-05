@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Self Grading Quiz</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Self Grading Quiz">
+	<meta name="author" content="Maxwell Kretschmer">
+	<link rel="stylesheet" href="hw10.css">
+</head>
+
+<body>
+	<h1 id="titleText"> Self Grading Quiz </h1>
+
+	<div class="flex-container">
+		<div class="flex-container">
+			<div class="main">
+				<div class="container">
+
+					<form method="POST" action="http://www.cknuckles.com/cgi/echo.cgi">
+						<h2>True/False</h2>
+						<div id="Q1" class="qcontainer">
+							<div class="qheader"> <b>1. </b>"URL" stands for "Universal Reference Link".</div>
+							<table>
+								<tr>
+									<td>
+										<label>
+											<input name="q1a" type="radio" value="true" />
+											True
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q1a" type="radio" value="false" />
+											False
+										</label>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<div id="Q2" class="qcontainer">
+							<div class="qheader"><b>2. </b> An Apple MacBook is an example of a Linux system </div>
+							<table>
+								<tr>
+									<td>
+										<label>
+											<input name="q2a" type="radio" value="true" />
+											True
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q2a" type="radio" value="false" />
+											False
+										</label>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<h2>Multiple Choice</h2>
+						<div id="Q3" class="qcontainer">
+							<div class="qheader"><b>3. </b>Which of these do NOT contribute to packet delay in a packet
+								switching
+								network?</div>
+							<table>
+								<tr>
+									<td>
+										<label>
+											<input name="q3a[]" type="checkbox" value="a" />
+											a) Processing delay at a router
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q3a[]" type="checkbox" value="b" />
+											b) CPU workload on a client
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q3a[]" type="checkbox" value="c" />
+											c) Transmission delay along a communications link
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q3a[]" type="checkbox" value="d" />
+											d) Propagation delay
+										</label>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<div id="Q4" class="qcontainer">
+							<div class="qheader">
+								<b>4. </b>This Internet layer is responsible for creating the packets that move across
+								the network
+							</div>
+							<table>
+								<tr>
+									<td>
+										<label>
+											<input name="q4a[]" type="checkbox" value="a" />
+											a) Physical
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q4a[]" type="checkbox" value="b" />
+											b) Data Link
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q4a[]" type="checkbox" value="c" />
+											c) Network
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>
+											<input name="q4a[]" type="checkbox" value="d" />
+											d) Transport
+										</label>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<h2>Fill in the Blank</h2>
+						<div id="Q5" class="qcontainer">
+							<b>5. </b>
+							<input type="text" name="q5a" id="q5a" required>
+							is a networking protocol that runs over TCP/IP, and governs communication between web
+							browsers and web
+							servers.
+						</div>
+
+						<div id="Q6" class="qcontainer">
+							<b>6. </b>
+							A small icon displayed in a browser table that identifies a website is called a
+							<input type="text" name="q6a" id="q6a" required>
+							.
+						</div>
+
+						<p>
+							<button name="Grade" type="button" onclick="calculate()">Grade</button>
+							<input type="reset" value="Clear" />
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="hw10.js"></script>
+</body>
+
+</html>

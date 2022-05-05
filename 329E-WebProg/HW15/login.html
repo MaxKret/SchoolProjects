@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Login">
+	<meta name="author" content="Maxwell Kretschmer">
+	<link rel="stylesheet" href="login.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<script src="login.js"></script>
+</head>
+
+<body>
+	<h1 id="titleText"> Self Grading Quiz </h1>
+	<div class="centering-flex-container">
+		<div class="centering-flex-container">
+			<div class="main">
+				<div class="centering-container">
+					<div class="flex-container">
+
+						<div class="flex-child a">
+							<div class="logregContainer">
+								<form method="POST" action="">
+									<h3 class="logregText"> Login </h3>
+									<p>
+										<label for="loginUser" id="loginLabelu">Username:</label>
+										<input name="loginUser" id="loginUser" type="text" required />
+									</p>
+									<p>
+										<label for="loginPass" id="loginLabelp">Password:</label>
+										<input name="loginPass" id="loginPass" class="password" type="password" required />
+									</p>
+									<p>
+										<input name="Login" type="button" onclick="login()" value="Login">
+										<input type="reset" value="Clear" />
+									</p>
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

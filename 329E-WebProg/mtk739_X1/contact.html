@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Feedback Form</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Campus Visit Feedback Form">
+	<meta name="author" content="Maxwell Kretschmer">
+	<link href="contact.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="top">
+		<div id="header">
+			<a href="book_store.html">
+				<h1>The Reading Grounds</h1>
+			</a>
+			<h2>Austin, TX.</h2>
+		</div>
+	</div>
+	<h1 id="titleText">Contact Us</h1>
+	<form method="POST" action="http://www.cknuckles.com/cgi/echo.cgi">
+		<!-- http://www.cknuckles.com/cgi/echo.cgi -->
+
+		<p>
+			<label> Customer Name: <input name="name" type="text" size="30" /> </label>
+		</p>
+
+		<p>
+			<label> Email Address: <input name="email" type="email" size="30" /> </label>
+		</p>
+
+		<p>
+			<label> Phone Number: <input name="phonenumber" type="tel" size="30" /> </label>
+		</p>
+
+		<div>
+			<div id="subtitle1">Things you liked:</div>
+			<table>
+				<tr>
+					<td><label> <input name="attraction[]" type="checkbox" value="bookclub" /> Book club meetings </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name="attraction[]" type="checkbox" value="poetry" /> Poetry readings </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name="attraction[]" type="checkbox" value="childrenstory" /> Children's Story readings </label>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<br>
+
+		<div>
+			<div id="subtitle2">How did you find us?</div>
+			<table>
+				<tr>
+					<td><label> <input name="connection" type="radio" value="family" /> Family </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name="connection" type="radio" value="friends" /> Friends </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name="connection" type="radio" value="internet" /> Internet </label></td>
+				</tr>
+				<tr>
+					<td><label> <input name="connection" type="radio" value="other" /> Other </label></td>
+				</tr>
+			</table>
+		</div>
+
+		<p>
+			<label> Additional Comments: <br />
+				<textarea name="comments" rows="4" cols="36"> Enter your comments here: </textarea>
+			</label>
+		</p>
+
+		<p>
+			<input type="submit" value="Submit" />
+			<input type="reset" value="Clear" />
+		</p>
+
+	</form>
+
+</body>
+
+</html>

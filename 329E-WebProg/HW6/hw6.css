@@ -1,0 +1,26 @@
+p label{
+	display: inline-block;
+	width: 9em;
+	font-weight: bold;
+}
+
+body {
+	background: #bf5700;
+	color: white;
+}
+
+textarea, input, button, output {
+	background: #c06a24;
+}
+
+#titleText{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	text-shadow: 3px 1px #974400;
+}
+
+h2{
+	text-decoration: underline;
+	margin-bottom: 0px;
+}

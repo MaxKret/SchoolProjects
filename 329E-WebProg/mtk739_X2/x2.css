@@ -1,0 +1,9 @@
+#titleText { text-align: center; font-size: 3em; margin-bottom: 0em; margin-top: 0.25em; color: white}
+.flex-container {display: flex; justify-content: center;}
+.container {font-size: 2em; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1em; border: 4px solid; padding: 1em; margin: 0.25em;}
+.cellContainer { border: 1px solid; padding: 1em; text-align: center; }
+.cellBtns { font-size: 1em; text-align: center; border-color: blue; background-color: #bf5700}
+body{background-color: #bf5700}
+.scoreText { text-align: center; justify-content: center; margin-bottom: 0em; margin-top: 0em; }
+.playerText { text-align: center; justify-content: center; margin-bottom: 0em; margin-top: 0em; }
+#currPlayer { text-decoration: underline; }

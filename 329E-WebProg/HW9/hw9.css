@@ -1,0 +1,24 @@
+:root{ --bg-color: darkgreen; --txt-color: chocolate; }
+.flex-container {display: flex; justify-content: center;}
+.main { min-width: 42em; max-width: 42em;}
+.container {border: 2px solid; padding: 1em; padding-top: 0em;}
+.imagecontainer {position: relative; left: 0; top: 0; }
+#img1 {position: relative; left: 0; top: 0; z-index: 0;}
+#img2 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img3 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img4 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img5 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img6 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img7 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img8 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img9 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img10 {position: absolute; left: 0; top: 0; z-index: 0;}
+#img11 {position: absolute; left: 0; top: 0; z-index: 0;}
+.btn  { z-index: 0; text-align: center; }
+input { background-color: var(--bg-color); color: var(--txt-color); border: 1px solid var(--txt-color) }
+h1 { z-index: 0; text-align: center; font-size: 3em; color: var(--txt-color); margin: 0em; }
+h2 { z-index: 0; text-align: center; font-size: 2em; color: var(--txt-color); text-decoration: underline; }
+
+body { background-color: var(--bg-color);
+/* background-color: brown;  */
+}

@@ -1,0 +1,181 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+.home-title {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center-text {
+    position: absolute;
+    top: 45%; /* 45 for more vertical space */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(124, 108, 158, 0.75);
+    padding: 20px;
+}
+.center-text h1{
+    font-size: 150px;
+    margin: 0;
+}
+.center-text h2{
+    font-size: 40px;
+    margin: 0;
+}
+/* .center-text #block{
+
+} */
+
+.bg-img {
+    background-image: url("./img/austin_bg.jpg");
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    position: absolute;
+    width: 100%;
+}
+
+#topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: rgba(124, 108, 158, 0.4);
+}
+#topnav .topleft{
+    display: inline-flex;
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+}
+#topnav .topright{
+    display: inline-flex;
+    float: right;
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+}
+#topnav li a{
+    padding: 14px 16px;
+}
+#topnav li a:hover {
+    background-color: #3C3B6E;
+}
+#topnav li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#topnav input[type=text] {
+    margin-right: 16px;
+    font-size: 17px;
+    padding: 13px 200px 14px 14px;
+}
+#topnav #register a{
+    background-color: #5d5ba8;
+}
+#topnav #register a:hover{
+    background-color: #3c3b6e;
+}
+#topnav #heart a:hover{
+    color: #ff5555;
+    background-color: rgba(141, 133, 133, 0.4);
+}
+#topnav #logolink{
+    padding: 0px 8px;
+}
+#topnav .topleft img{
+    height: 2.5em;
+}
+
+
+.flex-container {
+    display:flex;
+}
+
+.flex-child{
+    flex:1;
+}
+
+.flex-child:first-child{
+    flex:1;
+    margin-right:20px;
+}
+
+.flex-child a{
+    color:white;
+}
+
+
+.contact-us{
+    text-align: center;
+    margin: 100px 100px;
+}
+.contact-us h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 10% 25px;
+}
+.contact-us h4{
+    font-size:30px;
+    font-weight: 600;
+}
+.contact-us p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    margin: 15px 10% 0;
+}
+
+footer{
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+    line-height: 5px;
+    margin-top: auto;
+    display: inline-block;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.bg-img .container #topnav .topleft form input{
+    margin-right: 0;
+}
+
+.bg-img .container #topnav .topleft form button{
+    margin-top: 1px;
+    float: right;
+    padding: 14px 14px 15px 14px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+.bg-img .container #topnav .topleft form button:hover {
+    background: #ccc;
+  }

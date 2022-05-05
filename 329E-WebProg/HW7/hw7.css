@@ -1,0 +1,23 @@
+body { 
+	background-color: #bf5700;
+}
+button, #reset {
+	background: #c06a24;
+	color: #9d4600;
+}
+#titleText{
+	font-weight: bold;
+	text-decoration: underline;	
+	color: #9d4600;
+	text-shadow: 3px 1px #000, -0.5px -0.5px rgba(200, 200, 200, 0.504);
+	margin-top: 0;
+}
+#container{
+	position: absolute;
+    top: 5%;
+    left: 2%;
+	border: 3px solid #ccc;
+	padding: 1em;
+	padding-top: 0.25em;
+
+}
